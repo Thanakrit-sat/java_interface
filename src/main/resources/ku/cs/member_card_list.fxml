@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ku.cs.shop.controllers.MemberCardListController">
+   <children>
+      <Button layoutX="28.0" layoutY="14.0" mnemonicParsing="false" text="back" />
+      <Label layoutX="113.0" layoutY="56.0" text="List of Member Card">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <ListView fx:id="cardsListView" layoutX="28.0" layoutY="100.0" prefHeight="479.0" prefWidth="374.0" />
+      <Separator layoutX="449.0" layoutY="70.0" orientation="VERTICAL" prefHeight="509.0" prefWidth="17.0" />
+      <Label layoutX="483.0" layoutY="56.0" text="Selected  Member Card Detail">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="483.0" layoutY="130.0" text="Name">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="483.0" layoutY="195.0" text="Phone">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="483.0" layoutY="258.0" text="Cumulative Purchase">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="691.0" layoutY="258.0" text="Point">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="nameLabel" layoutX="633.0" layoutY="131.0" text="nameLabel" />
+      <Label fx:id="phoneLabel" layoutX="633.0" layoutY="196.0" text="phoneLabel" />
+      <Label fx:id="cpLabel" layoutX="505.0" layoutY="300.0" text="cpLabel" textFill="#f36bdf">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="ptLabel" layoutX="668.0" layoutY="300.0" text="ptLabel" textFill="#0914e6">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
